@@ -1,0 +1,4 @@
+<li data-bind="click: edit">
+	<div class="taskText" data-bind="visible: !editing(), text: name"></div>
+	<input type="text" data-bind="visible: editing, textInput: name, hasFocus: editing" placeholder="Task name" />
+</li>

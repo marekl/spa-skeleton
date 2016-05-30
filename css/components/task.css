@@ -1,0 +1,22 @@
+task li
+{
+	border-bottom: solid 1px #d3d3d3;
+}
+
+task:last-child li
+{
+	border-bottom: none;
+	
+}
+
+task li div.taskText,
+task li input
+{
+	padding: 0.5em 1em;
+	font-size: 1rem;
+	width: 100%;
+	box-sizing: border-box;
+	font-kerning: normal;
+	outline: none;
+	border: none;
+}

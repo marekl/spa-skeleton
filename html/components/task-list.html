@@ -1,0 +1,7 @@
+<div>
+	<h3 data-bind="text: name">Task List</h3>
+	<ul data-bind="foreach: tasks">
+		<task params="name: $data"></task>
+	</ul>
+	<button data-bind="click: addTask">+ Add Task</button>
+</div>
